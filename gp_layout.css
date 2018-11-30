@@ -5,8 +5,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+ Author: Millione Johnson
+ Date:   11/29/18   
    
    Filename: gp_layout.css
 
@@ -23,8 +23,16 @@
 
 /* Flex Layout Styles */
 
+body {
+    display:-webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
 
+section#sheet {
 
+}
 
 
 /* ============================================
